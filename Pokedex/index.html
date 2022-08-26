@@ -17,11 +17,11 @@
             <span class="Pokemon_name"></span>
         </h1>
         <form class="form">
-            <input type="search" class="input_search" placeholder="name or number"value="" id="numero_pokemon" required/>
+            <input type="search" class="input_search" placeholder="name or number"value="1" id="numero_pokemon" onblur="buscainput()" required/>
         </form>
         <div class="buttons">
-            <button class="button" id="btn-prev" value="">&lt;Prev </button>
-            <button class="button" id="btn-next" value="">Next&gt; </button>
+            <button class="button" id="btn-prev" onclick="diminui()">&lt;Prev </button>
+            <button class="button" id="btn-next" onclick="aumenta()">Next&gt; </button>
         </div>
         <img src="./Images/pokedex.png" alt="pokédex" class="pokedex">
     </main>
