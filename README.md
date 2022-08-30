@@ -1,2 +1,2 @@
 # pokedex
-Projeto pessual de uma Pokedex que busca e retorna nome,numero e imagem dos pokemons em JavaScript com ultilização de API externa.
+Projeto pessoal para estudo de JavaScript com ultilização de API externa, o projeto ulriliza de HTML e CSS basico para o frond-end e JavaScript e a API <a href="https://pokeapi.co/">PokeAPI</a> no back-end, imagens, nome e numero dos pokemons são buscados na API a pokedex foi desenvolvida no front-end.
